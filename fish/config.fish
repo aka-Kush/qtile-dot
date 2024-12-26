@@ -1,0 +1,1 @@
+/home/kush/.config/fish/config.fish

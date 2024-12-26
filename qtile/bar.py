@@ -1,0 +1,1 @@
+/home/kush/.config/qtile/bar.py
