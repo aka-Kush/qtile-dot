@@ -1,0 +1,12 @@
+2024-12-27 20:44:55.003 [info] Extension host with pid 6279 started
+2024-12-27 20:44:55.004 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-27 20:44:55.205 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-12-27 20:44:55.275 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-27 20:44:55.349 [info] Eager extensions activated
+2024-12-27 20:44:55.366 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-27 20:44:55.369 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-27 20:44:55.388 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-12-27 20:44:55.393 [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: false, activationEvent: 'onStartupFinished'
+2024-12-27 20:44:55.404 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-12-27 20:44:56.890 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-27 20:44:56.914 [info] Extension host with pid 6279 exiting with code 0

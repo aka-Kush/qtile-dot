@@ -1,0 +1,21 @@
+00:00:00.175204 VirtualBox GUI VM Selector Window 7.1.4 r165100 linux.amd64 (Dec 25 2024 18:38:04) release log
+00:00:00.175205 Log opened 2024-12-26T12:20:28.888537000Z
+00:00:00.175205 Build Type: release
+00:00:00.175206 OS Product: Linux
+00:00:00.175207 OS Release: 6.12.6-arch1-1
+00:00:00.175207 OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 19 Dec 2024 21:29:01 +0000
+00:00:00.175224 DMI Product Name: OMEN Laptop 15-en1xxx
+00:00:00.175232 DMI Product Version: 
+00:00:00.175235 Firmware type: UEFI
+00:00:00.175310 Secure Boot: Disabled
+00:00:00.175334 Host RAM: 15328MB (14.9GB) total, 11338MB (11.0GB) available
+00:00:00.175335 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.175335 Process ID: 56474
+00:00:00.175335 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.175352 Qt version: 6.8.1
+00:00:00.175701 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.177922 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.177933 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.923935 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 962x31 x 940x505
+00:00:13.169052 QDBus error. No screen saver service found among registered DBus services.GUI: UICommon: Handling aboutToQuit request..
+00:00:19.958237 GUI: UICommon: aboutToQuit request handled!

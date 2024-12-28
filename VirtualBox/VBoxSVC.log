@@ -1,0 +1,222 @@
+00:00:00.000121 main     VirtualBox XPCOM Server 7.1.4 r165100 linux.amd64 (Dec 25 2024 18:38:04) release log
+00:00:00.000122 main     Log opened 2024-12-26T12:19:30.899418000Z
+00:00:00.000122 main     Build Type: release
+00:00:00.000123 main     OS Product: Linux
+00:00:00.000124 main     OS Release: 6.12.6-arch1-1
+00:00:00.000124 main     OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 19 Dec 2024 21:29:01 +0000
+00:00:00.000139 main     DMI Product Name: OMEN Laptop 15-en1xxx
+00:00:00.000146 main     DMI Product Version: 
+00:00:00.000149 main     Firmware type: UEFI
+00:00:00.000294 main     Secure Boot: Disabled
+00:00:00.000320 main     Host RAM: 15328MB (14.9GB) total, 11358MB (11.0GB) available
+00:00:00.000322 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000322 main     Process ID: 56139
+00:00:00.000322 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001399 main     IPC socket path: /tmp/.vbox-kush-ipc/ipcd
+00:00:00.005622 DCon01   VirtualBox: object creation starts
+00:00:00.005671 DCon01   Home directory: '/home/kush/.config/VirtualBox'
+00:00:00.013778 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.014503 DCon01   HostDnsMonitor: initializing
+00:00:00.014672 DCon01   NAT: resolv.conf: nameserver 205.254.187.14
+00:00:00.014678 DCon01   NAT: resolv.conf: nameserver 103.56.229.130
+00:00:00.014683 DCon01   HostDnsMonitor: updating information
+00:00:00.014690 DCon01   HostDnsMonitor: old information
+00:00:00.014692 DCon01     no server entries
+00:00:00.014693 DCon01     no domain set
+00:00:00.014694 DCon01     no search string entries
+00:00:00.014696 DCon01   HostDnsMonitor: new information
+00:00:00.014697 DCon01     server 1: 205.254.187.14
+00:00:00.014698 DCon01     server 2: 103.56.229.130
+00:00:00.014700 DCon01     domain: hgu_lan
+00:00:00.014701 DCon01     search string 1: hgu_lan
+00:00:00.015946 DCon01   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.016069 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.016147 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.016695 DCon01   VirtualBox: object created
+00:00:00.465332 DCon03   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.471149 DCon03   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:00:00.500323 DCon03   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.506206 DCon03   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:00:00.523722 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:00:00.878736 DCon01   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.892532 DCon01   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:00:58.697386 DCon07   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:00:59.050752 DCon07   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:59.064225 DCon07   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:01:03.019410 ExtPackInst ExtPack: Executing '/usr/lib/virtualbox/VBoxExtPackHelperApp' 'install' '--base-dir' '/usr/lib/virtualbox/ExtensionPacks' '--cert-dir' '/usr/share/virtualbox/ExtPackCertificates' '--name' 'Oracle VirtualBox Extension Pack' '--tarball' '/home/kush/Downloads/Oracle_VirtualBox_Extension_Pack-7.1.4.vbox-extpack' '--sha-256' '9dd60ef3c52c2a318fbbb6faace5862a299b61f678a579988869865dcf7390b6'
+00:01:06.109069 ExtPackInst ExtPack: enmReason=1 iStatus=0 stderr='rcExit=RTEXITCODE_SUCCESS
+00:01:06.109071 ExtPackInst '
+00:01:06.110073 ExtPackInst ExtPackManager: Found extension pack 'Oracle VirtualBox Extension Pack'.
+00:01:06.110174 ExtPackInst ExtPackManager: Successfully installed extension pack 'Oracle VirtualBox Extension Pack'.
+00:01:06.110260 ExtPackInst OCI: Local config file '/home/kush/.config/VirtualBox/oci_config' does not exist
+00:01:06.110268 ExtPackInst OCI: Original config file '/home/kush/.oci/config' does not exist
+00:01:06.110270 ExtPackInst OCI: Reading profiles finished with status NS_OK
+00:01:06.110272 ExtPackInst ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:01:11.449441 DCon08   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:11.455330 DCon08   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:01:14.241324 DCon08   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:14.254781 DCon08   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:01:23.542177 DCon08   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:01:23.950319 DCon08   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:23.963708 DCon08   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:01:34.252055 DCon06   Unattended: RTVfsQueryPathInfo(, '\OS2IMAGE/DISK_0/OS2LDR' (from OS2SE20.SRC),) -> VERR_PATH_NOT_FOUND, fMode=0x0
+00:01:34.256641 DCon06   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:34.262580 DCon06   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:01:34.263939 DCon06   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:34.269759 DCon06   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:02:21.342803 createBase Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:21.356177 createBase Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:02:21.359676 DCon05   Platform architecture set to 'x86'
+00:02:21.359774 DCon05   Platform architecture set to 'x86'
+00:02:21.359781 DCon05   Platform architecture set to 'x86'
+00:02:21.359994 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:02:21.360025 DCon05   Platform architecture set to 'x86'
+00:02:21.360705 DCon05   Saving settings file "/home/kush/VirtualBox VMs/NixOS/NixOS.vbox" with version "1.19-linux"
+00:02:21.371875 DCon05   Finished saving settings file "/home/kush/VirtualBox VMs/NixOS/NixOS.vbox"
+00:02:21.371980 DCon05   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:21.377846 DCon05   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:02:21.379020 DCon06   Platform architecture set to 'x86'
+00:02:21.379955 DCon06   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:21.385772 DCon06   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:02:21.387017 DCon06   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:21.392722 DCon06   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:02:21.393253 DCon06   Saving settings file "/home/kush/VirtualBox VMs/NixOS/NixOS.vbox" with version "1.19-linux"
+00:02:21.399030 DCon06   Finished saving settings file "/home/kush/VirtualBox VMs/NixOS/NixOS.vbox"
+00:02:21.413930 DCon09   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:21.419945 DCon09   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:02:21.750817 DCon06   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:21.764085 DCon06   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:02:21.767181 DCon06   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:02:21.781721 DCon06   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:02:21.782753 DCon06   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:02:21.854601 DCon06   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:21.901254 DCon06   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:02:21.902061 DCon06   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:02:24.584046 DCon05   Launched VM: 2886580784 pid: 57004 (0xdeac) frontend: GUI/Qt name: NixOS
+00:02:24.610503 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:02:24.611457 DCon05   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:02:24.624116 DCon05   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:24.653263 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:02:24.653991 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:02:25.084266 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'NixOS' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:02:25.116372 DCon06   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:02:25.117233 DCon06   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:02:25.129007 DCon05   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:25.162580 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:02:25.163347 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:02:52.433811 DCon12   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:52.447363 DCon12   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:02:53.251546 DCon12   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:53.264963 DCon12   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:02:58.750687 DCon12   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:58.764132 DCon12   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:03:03.561676 DCon08   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:03.567608 DCon08   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:03:24.177650 DCon08   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:24.191101 DCon08   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:06:54.140122 DCon24   Launched VM: 4160356912 pid: 59777 (0xe981) frontend: GUI/Qt name: NixOS
+00:06:54.167585 DCon24   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:54.168502 DCon24   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:06:54.180592 DCon24   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:06:54.215990 DCon24   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:54.216781 DCon24   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:54.640393 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'NixOS' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:06:54.672472 DCon24   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:54.673336 DCon24   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:06:54.685404 DCon24   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:06:54.716988 DCon24   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:54.717805 DCon24   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:59.229605 DCon26   Launched VM: 2348837472 pid: 59818 (0xe9aa) frontend: GUI/Qt name: NixOS
+00:06:59.257082 DCon22   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:59.258006 DCon22   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:06:59.269645 DCon22   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:06:59.300880 DCon22   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:59.301805 DCon22   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:59.729916 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'NixOS' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:06:59.778997 DCon26   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:06:59.780057 DCon26   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:06:59.792751 DCon26   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:06:59.823910 DCon26   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:06:59.824720 DCon26   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:05.234731 DCon27   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:05.604404 DCon27   Platform architecture set to 'x86'
+00:07:05.606583 DCon27   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:05.607369 DCon27   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:07:05.607463 DCon27   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:07:05.607589 DCon27   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:07:05.624288 DCon22   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:07:05.635779 DCon22   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:07:05.643427 DCon22   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:05.643681 DCon22   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:06.084263 DCon27   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:06.085349 DCon27   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:07:06.176220 DCon27   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:06.189580 DCon27   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:07:06.314814 DCon27   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:07:06.321903 DCon27   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:06.322694 DCon27   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:14.488019 DCon26   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:14.501372 DCon26   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:07:40.604264 DCon24   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:40.620313 DCon24   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:07:40.620353 DCon24   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:40.626104 DCon24   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:07:40.628130 DeleteVM Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:40.634022 DeleteVM Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:07:40.635242 DCon29   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:40.641013 DCon29   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:07:40.653486 DCon29   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {1a890b39-c74b-4b49-8de1-f886a400d862}}, preserve=false aResultDetail=0
+00:07:40.672143 DCon29   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {1a890b39-c74b-4b49-8de1-f886a400d862}}, preserve=false aResultDetail=0
+00:07:40.687538 DCon29   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:40.688451 DCon29   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:07:40.689768 DCon29   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:07:40.693753 DCon29   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:40.694329 DCon29   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:42.143533 DCon27   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:07:42.530317 DCon27   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:42.544039 DCon27   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:07:49.146605 DCon26   Unattended: RTVfsQueryPathInfo(, '\OS2IMAGE/DISK_0/OS2LDR' (from OS2SE20.SRC),) -> VERR_PATH_NOT_FOUND, fMode=0x0
+00:08:12.632702 createBase Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:08:12.646021 createBase Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:08:12.649211 DCon30   Platform architecture set to 'x86'
+00:08:12.649312 DCon30   Platform architecture set to 'x86'
+00:08:12.649321 DCon30   Platform architecture set to 'x86'
+00:08:12.649533 DCon30   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:08:12.649571 DCon30   Platform architecture set to 'x86'
+00:08:12.650400 DCon30   Saving settings file "/home/kush/VirtualBox VMs/NixOS/NixOS.vbox" with version "1.19-linux"
+00:08:12.659034 DCon30   Finished saving settings file "/home/kush/VirtualBox VMs/NixOS/NixOS.vbox"
+00:08:12.659132 DCon30   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:08:12.664951 DCon30   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:08:12.665832 DCon30   Platform architecture set to 'x86'
+00:08:12.666882 DCon27   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:08:12.672623 DCon27   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:08:12.673922 DCon27   Saving settings file "/home/kush/VirtualBox VMs/NixOS/NixOS.vbox" with version "1.19-linux"
+00:08:12.679627 DCon27   Finished saving settings file "/home/kush/VirtualBox VMs/NixOS/NixOS.vbox"
+00:08:12.691559 DCon27   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:08:12.697630 DCon27   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:08:13.043335 DCon30   Saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:08:13.056889 DCon30   Finished saving settings file "/home/kush/.config/VirtualBox/VirtualBox.xml"
+00:08:13.080434 DCon24   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:08:13.092412 DCon24   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:08:13.093391 DCon24   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:08:13.096980 DCon24   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:08:13.111811 DCon24   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:08:13.112509 DCon24   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:08:14.203956 DCon24   Launched VM: 4160484112 pid: 60238 (0xeb4e) frontend: GUI/Qt name: NixOS
+00:08:14.242022 DCon26   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:08:14.242893 DCon26   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:08:14.254295 DCon31   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:08:14.285502 DCon31   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:08:14.286326 DCon31   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:08:14.704209 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'NixOS' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:08:14.747475 DCon27   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:08:14.748528 DCon27   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:08:14.760241 DCon27   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:08:14.793356 DCon27   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:08:14.794132 DCon27   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:08:23.074852 main     VirtualBox: object deletion starts
+00:08:23.075003 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/kush/VirtualBox VMs/NixOS/NixOS.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:08:23.075802 main     HostDnsMonitor: shutting down ...
+00:08:23.076278 main     HostDnsMonitor: shut down
+00:08:23.087383 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:08:23.087467 main     VirtualBox: object deleted

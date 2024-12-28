@@ -1,0 +1,15 @@
+2024-12-27 02:42:19.175 [info] Started local extension host with pid 22611.
+2024-12-27 02:42:22.109 [info] [perf] Render performance baseline is 161ms
+2024-12-27 02:42:24.754 [error] Timed out waiting for authentication provider to register
+2024-12-27 02:43:19.340 [error] Unable to read file '/home/kush/Downloads/test.txt' (Error: File not modified since): Error: Unable to read file '/home/kush/Downloads/test.txt' (Error: File not modified since)
+    at Uot.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3109:64581)
+    at Uot.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3109:64490)
+    at async sat.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3110:9121)
+    at async sat.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3110:8896)
+    at async Nfe.Db (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1295:11960)
+    at async Nfe.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1295:10435)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3110:5480
+2024-12-27 02:48:28.357 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

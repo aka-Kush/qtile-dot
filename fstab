@@ -1,0 +1,12 @@
+# UUID=0c6fc5e1-e52c-44ea-9a50-39e064875466
+/dev/nvme0n1p3      	/         	ext4      	rw,relatime	0 1
+
+# UUID=3D2B-8E5F
+/dev/nvme0n1p1      	/boot/efi 	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# UUID=33ab7c44-4d71-4a2b-8320-288710ed455b
+/dev/nvme0n1p2      	none      	swap      	defaults  	0 0
+
+/dev/nvme0n1p5      	/home/kush/Vol1      	ntfs-3g      	defaults  	0 0
+/dev/nvme0n1p6      	/home/kush/Vol2      	ntfs-3g      	defaults  	0 0
+

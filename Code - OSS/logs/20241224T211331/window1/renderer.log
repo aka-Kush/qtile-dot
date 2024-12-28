@@ -1,0 +1,19 @@
+2024-12-24 21:13:36.148 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-24 21:13:36.294 [info] Started local extension host with pid 205387.
+2024-12-24 21:13:36.650 [error] TreeError [SettingsTree] Tree element not found: [object Object]: Error: TreeError [SettingsTree] Tree element not found: [object Object]
+    at Hds.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:415:8336)
+    at Hds.rerender (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:415:6797)
+    at Tje.rerender (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:415:15664)
+    at ky.ad (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1354:55063)
+    at ky.Zc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1354:54927)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1354:54262
+    at Set.forEach (<anonymous>)
+    at ky.Xc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1354:54246)
+    at aee.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1354:38181)
+    at x.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:748)
+2024-12-24 21:13:37.628 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-24 21:13:39.192 [info] [perf] Render performance baseline is 24ms
+2024-12-24 21:13:39.531 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-24 21:13:41.979 [error] Timed out waiting for authentication provider to register
+2024-12-24 21:13:43.546 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-24 21:13:44.269 [warning] Settings pattern "issueReporter.*" doesn't match any settings

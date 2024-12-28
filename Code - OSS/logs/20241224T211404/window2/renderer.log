@@ -1,0 +1,11 @@
+2024-12-24 21:14:26.802 [info] Started local extension host with pid 206254.
+2024-12-24 21:14:29.486 [info] [perf] Render performance baseline is 23ms
+2024-12-24 21:14:32.326 [error] Timed out waiting for authentication provider to register
+2024-12-24 21:15:08.284 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-24 21:15:41.701 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-24 21:15:46.040 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-24 21:16:05.389 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-24 21:16:23.877 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-24 21:16:34.883 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-24 21:16:49.629 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-24 21:16:53.314 [warning] Settings pattern "issueReporter.*" doesn't match any settings

@@ -1,0 +1,31 @@
+[25/12/2024-1:11:58]main > error trying to set discord activity
+[25/12/2024-1:12:4]main > error trying to set discord activity
+[25/12/2024-1:12:35]main > error trying to set discord activity
+[25/12/2024-1:12:44]main > Could not clear discord activity
+[25/12/2024-1:12:46]main > TypeError: Cannot read property 'write' of null
+    at e.exports.send (/opt/nuclear/resources/app.asar/dist/webpack:/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/nuclear/resources/app.asar/dist/webpack:/node_modules/discord-rpc/src/client.js:166:22
+    at new Promise (<anonymous>)
+    at e.exports.request (/opt/nuclear/resources/app.asar/dist/webpack:/node_modules/discord-rpc/src/client.js:164:12)
+    at e.exports.clearActivity (/opt/nuclear/resources/app.asar/dist/webpack:/node_modules/discord-rpc/src/client.js:550:17)
+    at h.clear (/opt/nuclear/resources/app.asar/dist/webpack:/@nuclear/main/src/services/discord/index.ts:105:24)
+    at App.<anonymous> (/opt/nuclear/resources/app.asar/dist/webpack:/@nuclear/main/src/main.ts:116:19)
+    at App.emit (events.js:327:22)[25/12/2024-2:34:45]main > Could not clear discord activity
+[25/12/2024-2:34:46]main > TypeError: Cannot read property 'write' of null
+    at e.exports.send (/opt/nuclear/resources/app.asar/dist/webpack:/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/nuclear/resources/app.asar/dist/webpack:/node_modules/discord-rpc/src/client.js:166:22
+    at new Promise (<anonymous>)
+    at e.exports.request (/opt/nuclear/resources/app.asar/dist/webpack:/node_modules/discord-rpc/src/client.js:164:12)
+    at e.exports.clearActivity (/opt/nuclear/resources/app.asar/dist/webpack:/node_modules/discord-rpc/src/client.js:550:17)
+    at h.clear (/opt/nuclear/resources/app.asar/dist/webpack:/@nuclear/main/src/services/discord/index.ts:105:24)
+    at App.<anonymous> (/opt/nuclear/resources/app.asar/dist/webpack:/@nuclear/main/src/main.ts:116:19)
+    at App.emit (events.js:327:22)[25/12/2024-2:48:4]main > Could not clear discord activity
+[25/12/2024-2:48:4]main > TypeError: Cannot read property 'write' of null
+    at e.exports.send (/opt/nuclear/resources/app.asar/dist/webpack:/node_modules/discord-rpc/src/transports/ipc.js:155:17)
+    at /opt/nuclear/resources/app.asar/dist/webpack:/node_modules/discord-rpc/src/client.js:166:22
+    at new Promise (<anonymous>)
+    at e.exports.request (/opt/nuclear/resources/app.asar/dist/webpack:/node_modules/discord-rpc/src/client.js:164:12)
+    at e.exports.clearActivity (/opt/nuclear/resources/app.asar/dist/webpack:/node_modules/discord-rpc/src/client.js:550:17)
+    at h.clear (/opt/nuclear/resources/app.asar/dist/webpack:/@nuclear/main/src/services/discord/index.ts:105:24)
+    at App.<anonymous> (/opt/nuclear/resources/app.asar/dist/webpack:/@nuclear/main/src/main.ts:116:19)
+    at App.emit (events.js:327:22)
