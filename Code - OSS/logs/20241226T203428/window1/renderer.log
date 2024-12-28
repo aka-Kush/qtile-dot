@@ -1,7 +1,0 @@
-2024-12-26 20:34:31.490 [info] Started local extension host with pid 76512.
-2024-12-26 20:34:34.430 [info] [perf] Render performance baseline is 163ms
-2024-12-26 20:34:37.053 [error] Timed out waiting for authentication provider to register
-2024-12-26 20:35:27.841 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
-    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
-    at onErrorNT (node:internal/child_process:483:16)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

@@ -1,8 +1,0 @@
-[Default Applications]
-image/jpeg=org.xfce.ristretto.desktop
-x-scheme-handler/discord-1038970224050962582=nuclear.desktop
-
-[Added Associations]
-image/jpeg=org.geeqie.Geeqie.desktop;org.xfce.ristretto.desktop;
-application/x-fishscript=code-oss.desktop;
-image/png=org.xfce.ristretto.desktop;sxiv.desktop;

@@ -1,8 +1,0 @@
-{
-    "workbench.colorTheme": "Gruvbox Dark Hard",
-    "editor.fontFamily": "'Fira Code'",
-    "vim.smartRelativeLine": true,
-    "editor.lineNumbers": "relative",
-    "editor.fontLigatures": true,
-    "editor.wordWrap": "on"
-}
