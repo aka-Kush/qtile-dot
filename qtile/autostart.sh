@@ -2,6 +2,7 @@
 
 dunst &
 nm-applet &
+diodon &
 picom &
 feh --bg-scale /home/kush/Pictures/catppuccin/clouds-2.png &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
