@@ -90,7 +90,7 @@ keys = [
     Key([mod, "shift"], "x", lazy.spawn("bash /home/kush/.config/rofi/scripts/powermenu.sh")),
     
     # change wallpaper using feh custom script
-    Key([alt, "control"], "b", lazy.spawn("wal")),
+    Key([alt, "control"], "b", lazy.spawn("wall")),
 
 ]
 

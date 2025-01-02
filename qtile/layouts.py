@@ -64,8 +64,11 @@ floating_layout = layout.Floating(
         Match(wm_class="makebranch"),  # gitk
         Match(wm_class="copyq"),  # copyq clipboard manager 
         Match(wm_class="maketag"),  # gitk
+        Match(wm_class="blueman-manager"),  # gitk
         Match(wm_class="ssh-askpass"),  # ssh-askpass
+        Match(wm_class="pavucontrol"),
         Match(wm_class="protonvpn-app"),
+        Match(wm_class="Alacritty"),
         Match(title="branchdialog"),  # gitk
         Match(title="pinentry"),  # GPG key password entry
     ],
