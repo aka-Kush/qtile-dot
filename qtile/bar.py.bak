@@ -92,34 +92,33 @@ extension_defaults = widget_defaults.copy()
 #                     fontsize=22,
 #                     # font="JetBrainsMono Nerd Font Bold",
 #                     text="󰣇",
-#                     foreground="#74c7ec",
+#                     foreground="#ffffff",
 #                     # foreground="#000000",
-#                     # background="#74c7ec",
+#                     background="#74c7ec",
 #                     mouse_callbacks={
 #                         "Button1": lambda: qtile.cmd_spawn(
 #                         "rofi -show drun" 
 #                     )
 #                     },
-#                     # decorations = [
-#                     #     PowerLineDecoration(path="forward_slash")
-#                     # ]
+#                     decorations = [
+#                         PowerLineDecoration(path="forward_slash")
+#                     ]
 #                 ),
-#                 widget.Spacer(length=10),
-#                 # widget.Sep(foreground="#baRc2de", linewidth=2, size_percent=70),
+#                 # widget.Spacer(length=10),
+#                 # widget.Sep(foreground="#baRc2de", linewidth=2),
 #                 widget.GroupBox(
-#                     # active="#a6d189",
+#                     #active="#a6d189",
 #                     fontsize=16,
 #                     rounded=False,
-#                     # this_current_screen_border="#8839ef",
-#                     this_current_screen_border="#74c7ec",
+#                     this_current_screen_border="#8839ef",
 #                     # this_current_screen_border="#000000",
 #                     highlight_method="text",
-#                     # background="#fab387",
+#                     background="#fab387",
 #                     borderwidth=0,
 #                     hide_unused=True,
-#                     # decorations = [
-#                     #     PowerLineDecoration(path="forward_slash")
-#                     # ]
+#                     decorations = [
+#                         PowerLineDecoration(path="forward_slash")
+#                     ]
 #                 ),
 #                 # widget.Sep(foreground="#bac2de", linewidth=2, size_percent=70),
 #                 widget.CurrentLayout(
@@ -131,7 +130,7 @@ extension_defaults = widget_defaults.copy()
 #                 widget.WindowName(
 #                     foreground="#f9e2af",
 #                     markup=True,
-#                     font="JetBrainsMono Nerd Font Bold",
+#                     font="CodeNewRoman Nerd Font Bold",
 #                     fontsize=15,
 #                     max_chars=63,
 #                 ),
@@ -246,43 +245,60 @@ extension_defaults = widget_defaults.copy()
 #     ),
 # ]
 
-# Catpuccin bar1 bottom
+# Catppuccin bar 2
 screens = [
     Screen(
-        bottom=bar.Bar(
+        top=bar.Bar(
             [   
                 widget.TextBox(
                     fontsize=22,
                     text="󰣇",
-                    foreground="#74c7ec",
+                    foreground="#ffffff",
+                    background="#74c7ec",
                     mouse_callbacks={
                         "Button1": lambda: qtile.cmd_spawn(
                         "rofi -show drun" 
                     )
                     },
+                    decorations = [PowerLineDecoration(path="forward_slash")]
                 ),
-                widget.Spacer(length=10),
+                widget.CurrentLayout(
+                    fontsize=16,
+                    foreground="#232634",
+                    background="#f9e2af",
+                    scale=0.7,
+                ),
+                widget.Spacer(length=1,decorations=[PowerLineDecoration(path="forward_slash")],background="f9e2af"),
+                widget.Spacer(),
+                widget.TextBox(
+                    fontsize=16,
+                    text="",
+                    foreground="#ffffff",
+                ),
                 widget.GroupBox(
                     fontsize=16,
                     rounded=False,
-                    this_current_screen_border="#74c7ec",
+                    # fmt="[{}]",
+                    this_current_screen_border="#eb6f92",
                     highlight_method="text",
                     borderwidth=0,
                     hide_unused=True,
                 ),
-                widget.CurrentLayout(
-                    font="JetBrainsMono Nerd Font Mono Bold",
+                widget.TextBox(
                     fontsize=16,
-                    foreground="#a6e3a1",
+                    text="",
+                    foreground="#ffffff",
                 ),
-                widget.WindowName(
-                    foreground="#f9e2af",
-                    markup=True,
-                    font="JetBrainsMono Nerd Font Bold",
-                    fontsize=15,
-                    max_chars=63,
+                widget.Spacer(),
+                widget.Spacer(
+                    length=5,
+                    decorations = [
+                        PowerLineDecoration(path="back_slash"),
+                    ],
                 ),
                 widget.Backlight(
+                    background = '#f5c2e7',
+                    foreground="#232634",
                     backlight_name="amdgpu_bl1",
                     brightness_file="brightness",
                     fontsize=16,
@@ -291,11 +307,11 @@ screens = [
                         "Button3": lambda: qtile.cmd_spawn("brightnessctl set 5%-"),
                     },
                     format="  {percent:2.0%}",
+                    decorations=[PowerLineDecoration(path="back_slash")],
                 ),
-                widget.Spacer(length=5),
-                widget.Sep(foreground="#f9e2af",linewidth=2,size_percent=80,padding=2),
                 widget.Volume(
-                    # emoji = True,
+                    foreground="#232634",
+                    background="#f9e2af",
                     fontsize=16,
                     emoji_list=["🔇", "", "", ""],
                     volume_app="pavucontrol",
@@ -305,40 +321,42 @@ screens = [
                     mute_command="pactl set-sink-mute @DEFAULT_SINK@ toggle",
                     get_volume_command="pamixer --get-volume-human",
                     fmt="  {}",
+                    decorations=[PowerLineDecoration(path="back_slash")],
                 ),
-                widget.Spacer(length=5),
-                widget.Sep(foreground="#cba6f7",linewidth=2,size_percent=80,padding=2),
                 widget.Battery(
-                    # charge_char="",
+                    background="#cba6f7",
                     fontsize=16,
+                    foreground="#232634",
                     charge_char="",
                     discharge_char="",
                     not_charging_char="*",
                     empty_char="",
                     full_char="",
-                    format="{char}  {percent:2.0%}",
+                    format="{char} {percent:2.0%}",
                     update_interval=1,
                     low_background="#ff0000",
                     low_foreground="#f5f5f5",
                     low_percentage=0.15,
-                    notify_below=20,
+                    notify_below=15,
+                    decorations=[PowerLineDecoration(path="back_slash")],
                 ),
-                widget.Spacer(length=5),
-                widget.Sep(foreground="#74c7ec",linewidth=2,size_percent=80,padding=2),
                 widget.Clock(
                     fontsize=16,
+                    background="#74c7ec",
                     format="  %I:%M %p - %b %e",
                     update_interval=60.0,
+                    foreground="#232634",
+                    decorations=[PowerLineDecoration(path="back_slash")],
                 ),
-                widget.Spacer(length=5),
-                widget.Sep(foreground="#fab387",linewidth=2,size_percent=80,padding=2),
-                widget.Systray(fontsize=18),
-                widget.Spacer(
-                    length=10,
+                widget.Systray(
+                    fontsize=18,
+                    foreground="#232634",
                 ),
+                widget.Spacer(length=5,decorations=[PowerLineDecoration(path="back_slash")]),
                 widget.TextBox(
                     fontsize=16,
                     text="",
+                    # foreground="#232634",
                     foreground="#ffffff",
                     background="#eb6f92",
                     mouse_callbacks={
@@ -354,134 +372,6 @@ screens = [
         ),
     ),
 ]
-
-# Catppuccin bar 2
-# screens = [
-#     Screen(
-#         top=bar.Bar(
-#             [   
-#                 widget.TextBox(
-#                     fontsize=22,
-#                     text="󰣇",
-#                     foreground="#ffffff",
-#                     background="#74c7ec",
-#                     mouse_callbacks={
-#                         "Button1": lambda: qtile.cmd_spawn(
-#                         "rofi -show drun" 
-#                     )
-#                     },
-#                     decorations = [PowerLineDecoration(path="forward_slash")]
-#                 ),
-#                 widget.CurrentLayout(
-#                     fontsize=16,
-#                     foreground="#232634",
-#                     background="#f9e2af",
-#                     scale=0.7,
-#                 ),
-#                 widget.Spacer(length=1,decorations=[PowerLineDecoration(path="forward_slash")],background="f9e2af"),
-#                 widget.Spacer(),
-#                 widget.TextBox(
-#                     fontsize=16,
-#                     text="",
-#                     foreground="#ffffff",
-#                 ),
-#                 widget.GroupBox(
-#                     fontsize=16,
-#                     rounded=False,
-#                     # fmt="[{}]",
-#                     this_current_screen_border="#eb6f92",
-#                     highlight_method="text",
-#                     borderwidth=0,
-#                     hide_unused=True,
-#                 ),
-#                 widget.TextBox(
-#                     fontsize=16,
-#                     text="",
-#                     foreground="#ffffff",
-#                 ),
-#                 widget.Spacer(),
-#                 widget.Spacer(
-#                     length=5,
-#                     decorations = [
-#                         PowerLineDecoration(path="back_slash"),
-#                     ],
-#                 ),
-#                 widget.Backlight(
-#                     background = '#f5c2e7',
-#                     foreground="#232634",
-#                     backlight_name="amdgpu_bl1",
-#                     brightness_file="brightness",
-#                     fontsize=16,
-#                     mouse_callbacks={
-#                         "Button1": lambda: qtile.cmd_spawn("brightnessctl set +5%"),
-#                         "Button3": lambda: qtile.cmd_spawn("brightnessctl set 5%-"),
-#                     },
-#                     format="  {percent:2.0%}",
-#                     decorations=[PowerLineDecoration(path="back_slash")],
-#                 ),
-#                 widget.Volume(
-#                     foreground="#232634",
-#                     background="#f9e2af",
-#                     fontsize=16,
-#                     emoji_list=["🔇", "", "", ""],
-#                     volume_app="pavucontrol",
-#                     volume_down_command="pactl -- set-sink-volume 0 -5%",
-#                     volume_up_command="pactl -- set-sink-volume 0 +5%",
-#                     mute_format="OFF",
-#                     mute_command="pactl set-sink-mute @DEFAULT_SINK@ toggle",
-#                     get_volume_command="pamixer --get-volume-human",
-#                     fmt="  {}",
-#                     decorations=[PowerLineDecoration(path="back_slash")],
-#                 ),
-#                 widget.Battery(
-#                     background="#cba6f7",
-#                     fontsize=16,
-#                     foreground="#232634",
-#                     charge_char="",
-#                     discharge_char="",
-#                     not_charging_char="*",
-#                     empty_char="",
-#                     full_char="",
-#                     format="{char} {percent:2.0%}",
-#                     update_interval=1,
-#                     low_background="#ff0000",
-#                     low_foreground="#f5f5f5",
-#                     low_percentage=0.15,
-#                     notify_below=15,
-#                     decorations=[PowerLineDecoration(path="back_slash")],
-#                 ),
-#                 widget.Clock(
-#                     fontsize=16,
-#                     background="#74c7ec",
-#                     format="  %I:%M %p - %b %e",
-#                     update_interval=60.0,
-#                     foreground="#232634",
-#                     decorations=[PowerLineDecoration(path="back_slash")],
-#                 ),
-#                 widget.Systray(
-#                     fontsize=18,
-#                     foreground="#232634",
-#                 ),
-#                 widget.Spacer(length=5,decorations=[PowerLineDecoration(path="back_slash")]),
-#                 widget.TextBox(
-#                     fontsize=16,
-#                     text="",
-#                     # foreground="#232634",
-#                     foreground="#ffffff",
-#                     background="#eb6f92",
-#                     mouse_callbacks={
-#                         "Button1": lambda: qtile.cmd_spawn(
-#                         "bash /home/kush/.config/rofi/scripts/powermenu.sh" 
-#                     )
-#                     },
-#                 ),
-#             ],
-#             29,
-#              background="#1E1E2E",
-#              opacity=0.7
-#         ),
-#     ),
-# ]
 
 
 # Nord color bar
