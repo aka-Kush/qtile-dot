@@ -1,0 +1,19 @@
+#!/bin/bash
+
+export XDG_RUNTIME_DIR=/run/user/$(id -u)
+
+# Get battery status and percentage
+bat='upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -E "percentage"'
+state='upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep -E "state"'
+
+# Extract the percentage of the battery, remove the '%' symbol, and convert to an integer
+p=$(eval $bat | awk '{print $2}' | sed 's/%//')
+
+# Get the current battery state (charging, discharging, etc.)
+battery_state=$(eval $state | awk '{print $2}')
+
+# Check if the battery is discharging and the percentage is less than or equal to 20
+if [ "$battery_state" == "discharging" ] && [ "$p" -le 20 ]; then
+    notify-send "Battery Low" "Battery is at ${p}%. Please charge your laptop." -u critical -i "battery"
+fi
+
